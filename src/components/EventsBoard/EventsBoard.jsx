@@ -1,5 +1,6 @@
 import css from './EventsBoard.module.css';
 import { Event } from 'components/event/Event';
+import PropTypes from 'prop-types';
 
 const EventBoard = ({events}) => {
     return (
@@ -20,3 +21,18 @@ const EventBoard = ({events}) => {
 };
 
 export default EventBoard;
+
+EventBoard.propTypes = {
+    events: PropTypes.arrayOf(
+        PropTypes.exact({
+            name: PropTypes.string.isRequired,
+            locatoin: PropTypes.string.isRequired,
+            speaker:PropTypes.string.isRequired,
+            types:PropTypes.string.isRequired,
+            time:{
+                start: PropTypes.string.isRequired,
+                end: PropTypes.string.isRequired,
+            },
+        })
+    ),
+}

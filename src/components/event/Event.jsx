@@ -1,23 +1,24 @@
 import PropTypes from 'prop-types';
+import css from './Event.module.css';
 
 export const Event = ({ name, location, speaker, type, start, end}) => {
     return (
-        <div class="event">
-        <h2 class="title">Name</h2>
-        <p class="info">
-            <i class="icon"></i>
-            Location
+        <div className={css.event}>
+        <h2 className={css.title}>{name}</h2>
+        <p className={css.info}>
+            <i className={css.icon}></i>
+            {location}
         </p>
-        <p class="info">
-            <i class="icon"></i>
-            Speaker
+        <p className={css.info}>
+            <i className={css.icon}></i>
+            {speaker}
         </p>
-        <p class="info">
-            <i class="icon"></i>
-            Starte Date
+        <p className={css.info}>
+            <i className={css.icon}></i>
+            {start}
         </p>
-        <p class="info">
-            <i class="icon"></i>
+        <p className={css.info}>
+            <i className={css.icon}></i>
             Duration
         </p>
         {/* <span class="chip free|paid|vip">Evemt Type</span> */}
