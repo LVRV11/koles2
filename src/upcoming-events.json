@@ -1,0 +1,63 @@
+[
+    {  
+        "name":"Fjallraven - Foldsack No. 1",
+        "locatoin":"Odessa, Ukraine",
+        "speaker":"Valera",
+        "types":"free",
+        "time":{
+            "start":"2022-04-12T18:00:00",
+            "end": "2022-04-12T19:00:00"
+        }},
+    
+    
+    {
+        "name":"Afanasii Govnev No. 2",
+        "locatoin":"Kyiv, Ukraine",
+        "speaker":"Frosya",
+        "types":"free",
+        "time":{
+            "start":"2022-04-12T20:00:00",
+            "end": "2022-04-12T23:00:00"
+            }
+    
+    },
+    
+        {
+            "name":"Andrei Petux No. 3",
+            "locatoin":"Chop, Ukraine",
+            "speaker":"Kirya",
+            "types":"free",
+            "time":{
+                "start":"2022-04-12T18:00:00",
+                "end": "2022-04-12T23:00:00"
+        }},
+        {
+            "name":"Felix Bazyka No. 4",
+            "locatoin":"Harkiv, Ukraine",
+            "speaker":"Krem",
+            "types":"free",
+            "time":{
+                "start":"2022-04-12T18:00:00",
+                "end": "2022-04-12T22:00:00"
+        }},
+        {
+            "name":"Krisa Valera No. 4",
+            "locatoin":"Harkiv, Ukraine",
+            "speaker":"Klon",
+            "types":"free",
+            "time":{
+                "start":"2022-04-12T18:00:00",
+                "end": "2022-04-12T22:00:00"
+        }},
+        {
+            "name":"Chupakabra No. 4",
+            "locatoin":"Odessa, Ukraine",
+            "speaker":"Lolo",
+            "types":"free",
+            "time":{
+                "start":"2022-04-12T21:30:00",
+                "end": "2022-04-12T22:00:00"
+        }}
+    
+    ]
+    
