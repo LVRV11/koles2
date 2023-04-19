@@ -27,7 +27,7 @@ initial-letter: 0.25px;
 }
 
 .icon{
-    position: absolute;
+    
     top: 4px;
     right: 4px;
     padding: 4px 8px;
@@ -35,6 +35,17 @@ initial-letter: 0.25px;
     text-transform: uppercase;
     background-color: #000;
     color: #fff
+}
+
+.chip {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    padding: 4px 8px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
 }
 
 .free {
