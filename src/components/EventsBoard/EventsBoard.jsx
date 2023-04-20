@@ -29,10 +29,10 @@ EventBoard.propTypes = {
             locatoin: PropTypes.string.isRequired,
             speaker:PropTypes.string.isRequired,
             types:PropTypes.string.isRequired,
-            time:{
+            time:PropTypes.exact({
                 start: PropTypes.string.isRequired,
                 end: PropTypes.string.isRequired,
-            },
+            }),
         })
     ),
 }
