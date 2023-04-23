@@ -1,63 +1,58 @@
 [
     {  
-        "name":"Fjallraven - Foldsack No. 1",
-        "locatoin":"Odessa, Ukraine",
+        "name":"Fjallraven No. 1",
+        "location":"Odessa, Ukraine",
         "speaker":"Valera",
-        "types":"free",
+        "type":"free",
         "time":{
             "start":"2022-04-12T18:00:00",
             "end": "2022-04-12T19:00:00"
-        }},
-    
-    
+    }},
     {
         "name":"Afanasii Govnev No. 2",
-        "locatoin":"Kyiv, Ukraine",
+        "location":"Kyiv, Ukraine",
         "speaker":"Frosya",
-        "types":"free",
+        "type":"vip",
         "time":{
             "start":"2022-04-12T20:00:00",
             "end": "2022-04-12T23:00:00"
-            }
-    
-    },
-    
-        {
-            "name":"Andrei Petux No. 3",
-            "locatoin":"Chop, Ukraine",
-            "speaker":"Kirya",
-            "types":"free",
-            "time":{
-                "start":"2022-04-12T18:00:00",
-                "end": "2022-04-12T23:00:00"
-        }},
-        {
-            "name":"Felix Bazyka No. 4",
-            "locatoin":"Harkiv, Ukraine",
-            "speaker":"Krem",
-            "types":"free",
-            "time":{
+    }},
+    {
+         "name":"Andrei Petux No. 3",
+        "location":"Chop, Ukraine",
+        "speaker":"Kirya",
+        "type":"paid",
+        "time":{
+            "start":"2022-04-12T18:00:00",
+            "end": "2022-04-12T23:00:00"
+    }},
+    {
+        "name":"Felix Bazyka No. 4",
+        "location":"Harkiv, Ukraine",
+        "speaker":"Krem",
+        "type":"vip",
+        "time":{
                 "start":"2022-04-12T18:00:00",
                 "end": "2022-04-12T22:00:00"
-        }},
-        {
-            "name":"Krisa Valera No. 4",
-            "locatoin":"Harkiv, Ukraine",
-            "speaker":"Klon",
-            "types":"free",
-            "time":{
-                "start":"2022-04-12T18:00:00",
-                "end": "2022-04-12T22:00:00"
-        }},
-        {
-            "name":"Chupakabra No. 4",
-            "locatoin":"Odessa, Ukraine",
-            "speaker":"Lolo",
-            "types":"free",
-            "time":{
-                "start":"2022-04-12T21:30:00",
-                "end": "2022-04-12T22:00:00"
-        }}
+    }},
+     {
+        "name":"Krisa Valera No. 4",
+        "location":"Harkiv, Ukraine",
+        "speaker":"Klon",
+        "type":"free",
+        "time":{
+            "start":"2022-04-12T18:00:00",
+            "end": "2022-04-12T22:00:00"
+    }},
+    {
+        "name":"Chupakabra No. 4",
+        "location":"Odessa, Ukraine",
+        "speaker":"Lolo",
+        "type":"paid",
+        "time":{
+            "start":"2022-04-12T21:30:00",
+            "end": "2022-04-12T22:00:00"
+    }}
     
     ]
     
